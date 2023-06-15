@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import SpecNode
+from .models import SpecNode, UserSkills
 
 class SpecNodeSerializer(serializers.ModelSerializer):
     class Meta:
@@ -10,4 +10,11 @@ class SpecNodeSerializer(serializers.ModelSerializer):
             'parent'
         )
 
+class UserSkillsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserSkills
+        fields = (
+            'name',
+            'points'
+        )
         
