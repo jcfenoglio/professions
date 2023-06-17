@@ -501,6 +501,107 @@ const bsSpecs = [
     parent: "Hammer Control"
   }
 ]
+const enchSpecs = [
+  {
+    name: "Enchanting",
+    maxKnowledge: 100
+  },
+  {
+    name: "Enchantment",
+    maxKnowledge: 30,
+    parent: "Enchanting"
+  },
+  {
+    name: "Primal",
+    maxKnowledge: 50,
+    parent: "Enchantment"
+  },
+  {
+    name: "Burning",
+    maxKnowledge: 10, 
+    parent: "Primal"
+  },
+  {
+    name: "Earthen",
+    maxKnowledge: 10,
+    parent:"Primal"    
+  },
+  {
+    name: "Sophic",
+    maxKnowledge: 10,
+    parent: "Primal"
+  },
+  {
+    name: "Frozen",
+    maxKnowledge: 10,
+    parent: "Primal"
+  },
+  {
+    name: "Wafting",
+    maxKnowledge: 10,
+    parent: "Primal"
+  },
+  {
+    name: "Material Manipulation",
+    maxKnowledge: 40, 
+    parent: "Enchantment"
+  },
+  {
+    name: "Adaptive",
+    maxKnowledge: 30,
+    parent: "Material Manipulation"
+  },
+  {
+    name: "Artistry",
+    maxKnowledge: 30,
+    parent: "Material Manipulation"
+  },
+  {
+    name: "Magical Reinforcement",
+    maxKnowledge: 30,
+    parent: "Material Manipulation"
+  },
+  {
+    name: "Insight of the Blue",
+    maxKnowledge: 50,
+    parent: "Enchanting"
+  },
+  {
+    name: "Draconic Disenchantment",
+    maxKnowledge: 40,
+    parent: "Insight of the Blue"
+  },
+  {
+    name: "Primal Extraction",
+    maxKnowledge: 40,
+    parent: "Insight of the Blue"
+  },
+  {
+    name: "Rods, Runes, and Ruses",
+    maxKnowledge: 40,
+    parent: "Enchanting"
+  },
+  {
+    name: "Rods and Wands",
+    maxKnowledge: 45,
+    parent: "Rods, Runes, and Ruses"
+  },
+  {
+    name: "Illusory Goods",
+    maxKnowledge: 30,
+    parent: "Rods, Runes, and Ruses"
+  },
+  {
+    name: "Resourceful Writ",
+    maxKnowledge: 30,
+    parent: "Rods, Runes, and Ruses"
+  },
+  {
+    name: "Inspired Devotion",
+    maxKnowledge: 30,
+    parent: "Rods, Runes, and Ruses"
+  }
+]
 
 
 class App extends Component {
@@ -525,6 +626,8 @@ class App extends Component {
         return this.setState({ currentProf: "alch", knowList: alchSpecs});
       case "bs":
         return this.setState({ currentProf: "bs", knowList: bsSpecs });
+      case "ench":
+        return this.setState({ currentProf: "ench", knowList: enchSpecs });
       default:
         return this.setState({ currentProf: "lw", knowList: lwSpecs });
     }
@@ -556,6 +659,12 @@ class App extends Component {
           onClick={() => this.tabSwitch("alch")}
         >
           Alchemy
+        </span>
+        <span
+          className={this.state.currentProf === "ench" ? "nav-link active" : "nav-link"}
+          onClick={() => this.tabSwitch("ench")}
+        >
+          Enchanting
         </span>
       </div>
     );
