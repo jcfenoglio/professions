@@ -774,6 +774,8 @@ class App extends Component {
         return this.setState({ currentProf: "bs", knowList: bsSpecs });
       case "ench":
         return this.setState({ currentProf: "ench", knowList: enchSpecs });
+      case "insc":
+        return this.setState({ currentProf: "insc", knowList: inscSpecs });
       default:
         return this.setState({ currentProf: "lw", knowList: lwSpecs });
     }
@@ -811,6 +813,12 @@ class App extends Component {
           onClick={() => this.tabSwitch("ench")}
         >
           Enchanting
+        </span>
+        <span
+          className={this.state.currentProf === "insc" ? "nav-link active" : "nav-link"}
+          onClick={() => this.tabSwitch("insc")}
+        >
+          Inscription
         </span>
       </div>
     );
