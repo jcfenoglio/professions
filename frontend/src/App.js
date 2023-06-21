@@ -189,22 +189,22 @@ const jcSpecs = [
     parent: "Jewelcrafting"
   },
   {
-    name: "Air",
+    name: "Air Faceting",
     maxKnowledge: 40,
     parent: "Faceting"
   },
   {
-    name: "Earth",
+    name: "Earth Faceting",
     maxKnowledge: 40,
     parent: "Faceting"
   },
   {
-    name: "Fire",
+    name: "Fire Faceting",
     maxKnowledge: 40,
     parent: "Faceting"
   },
   {
-    name: "Frost",
+    name: "Frost Faceting",
     maxKnowledge: 40,
     parent: "Faceting"
   },
@@ -600,6 +600,152 @@ const enchSpecs = [
     name: "Inspired Devotion",
     maxKnowledge: 30,
     parent: "Rods, Runes, and Ruses"
+  }
+]
+const inscSpecs = [
+  {
+    name: "Inscription",
+    maxKnowledge: 100
+  },
+  {
+    name: "Rune Mastery",
+    maxKnowledge: 40,
+    parent: "Inscription"
+  },
+  {
+    name: "Perfect Practice",
+    maxKnowledge: 30,
+    parent: "Rune Mastery"
+  },
+  {
+    name: "Infinite Discovery",
+    maxKnowledge: 30,
+    parent: "Rune Mastery"
+  },
+  {
+    name: "Understanding Flora",
+    maxKnowledge: 20,
+    parent: "Rune Mastery"
+  },
+  {
+    name: "Flawless Inks",
+    maxKnowledge: 20,
+    parent: "Rune Mastery"
+  },
+  {
+    name: "Archiving",
+    maxKnowledge: 30,
+    parent: "Inscription"
+  },
+  {
+    name: "Darkmoon Mysteries",
+    maxKnowledge: 40,
+    parent: "Archiving"
+  },
+  {
+    name: "Fire Mysteries",
+    maxKnowledge: 30,
+    parent: "Darkmoon Mysteries"
+  },
+  {
+    name: "Frost Mysteries",
+    maxKnowledge: 30,
+    parent: "Darkmoon Mysteries"
+  },
+  {
+    name: "Air Mysteries",
+    maxKnowledge: 30,
+    parent: "Darkmoon Mysteries"
+  },
+  {
+    name: "Earth Mysteries",
+    maxKnowledge: 30,
+    parent: "Darkmoon Mysteries"
+  },
+  {
+    name: "Shared Knowledge",
+    maxKnowledge: 30,
+    parent: "Archiving"
+  },
+  {
+    name: "Contracts and Missives",
+    maxKnowledge: 20,
+    parent: "Shared Knowledge"
+  },
+  {
+    name: "Draconic Treatises",
+    maxKnowledge: 20,
+    parent: "Shared Knowledge"
+  },
+  {
+    name: "Scale Sigils",
+    maxKnowledge: 20,
+    parent: "Archiving"
+  },
+  {
+    name: "Azurescale Sigil",
+    maxKnowledge: 10,
+    parent: "Scale Sigils"
+  },
+  {
+    name: "Emberscale Sigil",
+    maxKnowledge: 10,
+    parent: "Scale Sigils"
+  },
+  {
+    name: "Sagescale Sigil",
+    maxKnowledge: 10,
+    parent: "Scale Sigils"
+  },
+  {
+    name: "Bronzescale Sigil",
+    maxKnowledge: 10,
+    parent: "Scale Sigils"
+  },
+  {
+    name: "Jetscale Sigil",
+    maxKnowledge: 10,
+    parent: "Scale Sigils"
+  },
+  {
+    name: "Runebinding",
+    maxKnowledge: 30,
+    parent: "Inscription"
+  },
+  {
+    name: "Woodcarving",
+    maxKnowledge: 30,
+    parent: "Runebinding"
+  },
+  {
+    name: "Profession Tools",
+    maxKnowledge: 20,
+    parent: "Woodcarving"
+  },
+  {
+    name: "Staves",
+    maxKnowledge: 30,
+    parent: "Woodcarving"
+  },
+  {
+    name: "Runic Scripture",
+    maxKnowledge: 30,
+    parent: "Runebinding"
+  },
+  {
+    name: "Codexes",
+    maxKnowledge: 30,
+    parent: "Runic Scripture"
+  },
+  {
+    name: "Vantus Runes",
+    maxKnowledge: 20,
+    parent: "Runic Scripture"
+  },
+  {
+    name: "Fauna Runes",
+    maxKnowledge: 20,
+    parent: "Runic Scripture"
   }
 ]
 
