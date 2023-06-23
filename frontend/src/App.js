@@ -748,6 +748,12 @@ const inscSpecs = [
     parent: "Runic Scripture"
   }
 ]
+const tailorSpecs = [
+  {
+    name: "Tailoring",
+    maxKnowledge: 100
+  },
+]
 
 
 class App extends Component {
@@ -776,6 +782,8 @@ class App extends Component {
         return this.setState({ currentProf: "ench", knowList: enchSpecs });
       case "insc":
         return this.setState({ currentProf: "insc", knowList: inscSpecs });
+      case "tailor":
+        return this.setState({ currentProf: "tailor", knowList: tailorSpecs });
       default:
         return this.setState({ currentProf: "lw", knowList: lwSpecs });
     }
@@ -795,6 +803,12 @@ class App extends Component {
           onClick={() => this.tabSwitch("bs")}
         >
           Blacksmithing
+        </span>
+        <span
+          className={this.state.currentProf === "tailor" ? "nav-link active" : "nav-link"}
+          onClick={() => this.tabSwitch("tailor")}
+        >
+          Tailoring
         </span>
         <span
           className={this.state.currentProf === "jc" ? "nav-link active" : "nav-link"}
