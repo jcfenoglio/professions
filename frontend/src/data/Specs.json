@@ -1,0 +1,688 @@
+[
+    {
+        "name": "Leatherworking",
+        "maxKnowledge": 100,
+        "children": [
+            {
+                "name": "Leatherworking Discipline",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Shear Mastery of Leather",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Awl Inspiring Works",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Bonding and Stitching",
+                        "maxKnowledge": 25
+                    },
+                    {
+                        "name": "Curing and Tanning",
+                        "maxKnowledge": 25
+                    }
+                ]
+            },
+            {
+                "name": "Leather Armor Crafting",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Shaped Leather Armor",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Leather Chestpieces",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Leather Helms",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Leather Shoulderpads",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Leather Wristwraps",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Embroidered Leather Armor",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Leather Legguards",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Leather Gloves",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Leather Belts",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Leather Boots",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mail Armor Crafting",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Large Mail",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Mail Shirts",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Mail Helms",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Mail Shoulderguards",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Mail Bracers",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Intricate Mail",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Mail Greaves",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Mail Gauntlets",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Mail Belts",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Mail Boots",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Primordial Leatherworking",
+                "maxKnowledge": 35,
+                "children": [
+                    {
+                        "name": "Elemental Mastery",
+                        "maxKnowledge": 25
+                    },
+                    {
+                        "name": "Bestial Primacy",
+                        "maxKnowledge": 25
+                    },
+                    {
+                        "name": "Decaying Grasp",
+                        "maxKnowledge": 25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jewelcrafting",
+        "maxKnowledge": 100,
+        "children": [
+            {
+                "name": "Jeweler Toolset Mastery",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Saving Slivers",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Brilliant Baubling",
+                        "maxKnowledge": 30
+                    }
+                ]
+            },
+            {
+                "name": "Faceting",
+                "maxKnowledge": 40,
+                "children": [
+                    {
+                        "name": "Air Faceting",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Earth Faceting",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Fire Faceting",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Frost Faceting",
+                        "maxKnowledge": 40
+                    }
+                ]
+            },
+            {
+                "name": "Setting",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Jewelry",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Necklaces",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Rings",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Carving",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Idols",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Stone",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Enterprising",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Prospecting",
+                        "maxKnowledge": 25
+                    },
+                    {
+                        "name": "Extravagancies",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Glassware",
+                        "maxKnowledge": 45
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Alchemy",
+        "maxKnowledge": 100,
+        "children": [
+            {
+                "name": "Potion Mastery",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Frost-Formulated Potions",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Air-Formulated Potions",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Potion Lore",
+                        "maxKnowledge": 25,
+                        "children": [
+                            {
+                                "name": "Potion Experimentation",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Potion Batch Production",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Phial Mastery",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Frost-Formulated Phials",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Air-Formulated Phials",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Phial Lore",
+                        "maxKnowledge": 25,
+                        "children": [
+                            {
+                                "name": "Phial Experimentation",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Phial Batch Production",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Alchemical Theory",
+                "maxKnowledge": 50,
+                "children": [
+                    {
+                        "name": "Transmutation",
+                        "maxKnowledge": 20
+                    },
+                    {
+                        "name": "Chemical Synthesis",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Decayology",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Resourceful Routines",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Inspiring Ambience",
+                        "maxKnowledge": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Blacksmithing",
+        "maxKnowledge": 100,
+        "children": [
+            {
+                "name": "Armorsmithing",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Large Plate Armor",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Plate Breastplates",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Shields",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Plate Greaves",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sculpted Armor",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Plate Helms",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Plate Pauldrons",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Plate Sabatons",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fine Armor",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Plate Belts",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Plate Vambraces",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Plate Gauntlets",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Weaponsmithing",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Blades",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Short Blades",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Long Blades",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hafted",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Maces & Hammers",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Axes, Picks & Polearms",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Specialty Smithing",
+                "maxKnowledge": 40,
+                "children": [
+                    {
+                        "name": "Toolsmithing",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Stonework",
+                        "maxKnowledge": 20
+                    },
+                    {
+                        "name": "Smelting",
+                        "maxKnowledge": 20
+                    }
+                ]
+            },
+            {
+                "name": "Hammer Control",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Safety Smithing",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Poignant Plans",
+                        "maxKnowledge": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Enchanting",
+        "maxKnowledge": 100,
+        "children": [
+            {
+                "name": "Enchantment",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Primal",
+                        "maxKnowledge": 50,
+                        "children": [
+                            {
+                                "name": "Burning",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Earthen",
+                                "maxKnowledge": 10 
+                            },
+                            {
+                                "name": "Sophic",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Frozen",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Wafting",
+                                "maxKnowledge": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Material Manipulation",
+                        "maxKnowledge": 40, 
+                        "children": [
+                            {
+                                "name": "Adaptive",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Artistry",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Magical Reinforcement",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Insight of the Blue",
+                "maxKnowledge": 50,
+                "children": [
+                    {
+                        "name": "Draconic Disenchantment",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Primal Extraction",
+                        "maxKnowledge": 40
+                    }
+                ]
+            },
+            {
+                "name": "Rods, Runes, and Ruses",
+                "maxKnowledge": 40,
+                "children": [
+                    {
+                        "name": "Rods and Wands",
+                        "maxKnowledge": 45
+                    },
+                    {
+                        "name": "Illusory Goods",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Resourceful Writ",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Inspired Devotion",
+                        "maxKnowledge": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Inscription",
+        "maxKnowledge": 100,
+        "children": [
+            {
+                "name": "Rune Mastery",
+                "maxKnowledge": 40,
+                "children": [
+                    {
+                        "name": "Perfect Practice",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Infinite Discovery",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Understanding Flora",
+                        "maxKnowledge": 20
+                    },
+                    {
+                        "name": "Flawless Inks",
+                        "maxKnowledge": 20
+                    }
+                ]
+            },
+            {
+                "name": "Archiving",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Darkmoon Mysteries",
+                        "maxKnowledge": 40,
+                        "children": [
+                            {
+                                "name": "Fire Mysteries",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Frost Mysteries",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Air Mysteries",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Earth Mysteries",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shared Knowledge",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Contracts and Missives",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Draconic Treatises",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scale Sigils",
+                        "maxKnowledge": 20,
+                        "children": [
+                            {
+                                "name": "Azurescale Sigil",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Emberscale Sigil",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Sagescale Sigil",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Bronzescale Sigil",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Jetscale Sigil",
+                                "maxKnowledge": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Runebinding",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Woodcarving",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Profession Tools",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Staves",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Runic Scripture",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Codexes",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Vantus Runes",
+                                "maxKnowledge": 20
+                            },
+                            {
+                                "name": "Fauna Runes",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
