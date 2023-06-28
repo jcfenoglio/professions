@@ -8,12 +8,7 @@ const alchSpecs = []
 const bsSpecs = []
 const enchSpecs = []
 const inscSpecs = []
-const tailorSpecs = [
-  {
-    name: "Tailoring",
-    maxKnowledge: 100
-  },
-]
+const tailorSpecs = []
 
 class App extends Component {
   constructor(props) {
