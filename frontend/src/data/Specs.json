@@ -146,100 +146,6 @@
         ]
     },
     {
-        "name": "Jewelcrafting",
-        "maxKnowledge": 100,
-        "children": [
-            {
-                "name": "Jeweler Toolset Mastery",
-                "maxKnowledge": 30,
-                "children": [
-                    {
-                        "name": "Saving Slivers",
-                        "maxKnowledge": 30
-                    },
-                    {
-                        "name": "Brilliant Baubling",
-                        "maxKnowledge": 30
-                    }
-                ]
-            },
-            {
-                "name": "Faceting",
-                "maxKnowledge": 40,
-                "children": [
-                    {
-                        "name": "Air Faceting",
-                        "maxKnowledge": 40
-                    },
-                    {
-                        "name": "Earth Faceting",
-                        "maxKnowledge": 40
-                    },
-                    {
-                        "name": "Fire Faceting",
-                        "maxKnowledge": 40
-                    },
-                    {
-                        "name": "Frost Faceting",
-                        "maxKnowledge": 40
-                    }
-                ]
-            },
-            {
-                "name": "Setting",
-                "maxKnowledge": 30,
-                "children": [
-                    {
-                        "name": "Jewelry",
-                        "maxKnowledge": 30,
-                        "children": [
-                            {
-                                "name": "Necklaces",
-                                "maxKnowledge": 30
-                            },
-                            {
-                                "name": "Rings",
-                                "maxKnowledge": 30
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Carving",
-                        "maxKnowledge": 30,
-                        "children": [
-                            {
-                                "name": "Idols",
-                                "maxKnowledge": 30
-                            },
-                            {
-                                "name": "Stone",
-                                "maxKnowledge": 30
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Enterprising",
-                "maxKnowledge": 30,
-                "children": [
-                    {
-                        "name": "Prospecting",
-                        "maxKnowledge": 25
-                    },
-                    {
-                        "name": "Extravagancies",
-                        "maxKnowledge": 30
-                    },
-                    {
-                        "name": "Glassware",
-                        "maxKnowledge": 45
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Alchemy",
         "maxKnowledge": 100,
         "children": [
@@ -552,6 +458,80 @@
         ]
     },
     {
+        "name": "Engineering",
+        "maxKnowledge": 100,
+        "children": [
+            {
+                "name": "Optimized Efficiency",
+                "maxKnowledge": 40,
+                "children": [
+                    {
+                        "name": "Pieces Parts",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Scrapper",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Generalist",
+                        "maxKnowledge": 40
+                    }
+                ]
+            },
+            {
+                "name": "Explosives",
+                "maxKnowledge": 40,
+                "children": [
+                    {
+                        "name": "Creation",
+                        "maxKnowledge": 30
+                    }
+                    {
+                        "name": "Short Fuse",
+                        "maxKnowledge": 30
+                    }
+                    {
+                        "name": "EZ-Thro",
+                        "maxKnowledge": 30
+                    }
+                ]
+            },
+            {
+                "name": "Function Over Form",
+                "maxKnowledge": 40,
+                "children": [
+                    {
+                        "name": "Gear",
+                        "maxKnowledge": 35
+                    },
+                    {
+                        "name": "Gears for Gear",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Utility",
+                        "maxKnowledge": 30
+                    }
+                ]
+            },
+            {
+                "name": "Mechanical Mind",
+                "maxKnowledge": 40,
+                "children": [
+                    {
+                        "name": "Inventions",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Novelties",
+                        "maxKnowledge": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Inscription",
         "maxKnowledge": 100,
         "children": [
@@ -678,6 +658,228 @@
                             {
                                 "name": "Fauna Runes",
                                 "maxKnowledge": 20
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jewelcrafting",
+        "maxKnowledge": 100,
+        "children": [
+            {
+                "name": "Jeweler Toolset Mastery",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Saving Slivers",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Brilliant Baubling",
+                        "maxKnowledge": 30
+                    }
+                ]
+            },
+            {
+                "name": "Faceting",
+                "maxKnowledge": 40,
+                "children": [
+                    {
+                        "name": "Air Faceting",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Earth Faceting",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Fire Faceting",
+                        "maxKnowledge": 40
+                    },
+                    {
+                        "name": "Frost Faceting",
+                        "maxKnowledge": 40
+                    }
+                ]
+            },
+            {
+                "name": "Setting",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Jewelry",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Necklaces",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Rings",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Carving",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Idols",
+                                "maxKnowledge": 30
+                            },
+                            {
+                                "name": "Stone",
+                                "maxKnowledge": 30
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Enterprising",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Prospecting",
+                        "maxKnowledge": 25
+                    },
+                    {
+                        "name": "Extravagancies",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Glassware",
+                        "maxKnowledge": 45
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tailoring",
+        "maxKnowledge": 100,
+        "children": [
+            {
+                "name": "Tailoring Mastery",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Cloth Collection",
+                        "maxKnowledge": 50
+                    },
+                    {
+                        "name": "Sparing Sewing",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Shrewd Stichery",
+                        "maxKnowledge": 30
+                    }
+                ]
+            },
+            {
+                "name": "Textiles",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Spinning",
+                        "maxKnowledge": 30
+                    },
+                    {
+                        "name": "Weaving",
+                        "maxKnowledge": 20
+                    },
+                    {
+                        "name": "Embroidery",
+                        "maxKnowledge": 30
+                    }
+                ]
+            },
+            {
+                "name": "Draconic Needlework",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Azureweave Tailoring",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Azureweaving",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Chronocloth Tailoring",
+                        "maxKnowledge": 30,
+                        "children": [
+                            {
+                                "name": "Timeweaving",
+                                "maxKnowledge": 20
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Garmentcrafting",
+                "maxKnowledge": 30,
+                "children": [
+                    {
+                        "name": "Outerwear",
+                        "maxKnowledge": 50,
+                        "children": [
+                            {
+                                "name": "Cloth Gloves",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Cloth Footwear",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Cloth Hats",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Cloaks",
+                                "maxKnowledge": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Outfits",
+                        "maxKnowledge": 40,
+                        "children": [
+                            {
+                                "name": "Cloth Robes",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Cloth Leggings",
+                                "maxKnowledge": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Embellishments",
+                        "maxKnowledge": 40,
+                        "children": [
+                            {
+                                "name": "Cloth Mantles",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Cloth Armbands",
+                                "maxKnowledge": 10
+                            },
+                            {
+                                "name": "Cloth Belts",
+                                "maxKnowledge": 10
                             }
                         ]
                     }
