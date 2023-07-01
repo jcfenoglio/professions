@@ -1,5 +1,6 @@
 [
     {
+        "id": "lw",
         "name": "Leatherworking",
         "maxKnowledge": 100,
         "children": [
@@ -146,6 +147,7 @@
         ]
     },
     {
+        "id": "alch",
         "name": "Alchemy",
         "maxKnowledge": 100,
         "children": [
@@ -234,6 +236,7 @@
         ]
     },
     {
+        "id": "bs",
         "name": "Blacksmithing",
         "maxKnowledge": 100,
         "children": [
@@ -366,6 +369,7 @@
         ]
     },
     {
+        "id": "ench",
         "name": "Enchanting",
         "maxKnowledge": 100,
         "children": [
@@ -458,6 +462,7 @@
         ]
     },
     {
+        "id": "eng",
         "name": "Engineering",
         "maxKnowledge": 100,
         "children": [
@@ -532,6 +537,7 @@
         ]
     },
     {
+        "id": "insc",
         "name": "Inscription",
         "maxKnowledge": 100,
         "children": [
@@ -666,6 +672,7 @@
         ]
     },
     {
+        "id": "jc",
         "name": "Jewelcrafting",
         "maxKnowledge": 100,
         "children": [
@@ -760,6 +767,7 @@
         ]
     },
     {
+        "id": "tailor",
         "name": "Tailoring",
         "maxKnowledge": 100,
         "children": [
