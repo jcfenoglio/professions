@@ -1,6 +1,7 @@
 [
     {
-        "Leatherworking": [
+        "id" : "lw",
+        "items" : [
             {
                 "Adaptive Dracothyst Armguards": [
                     ""

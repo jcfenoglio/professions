@@ -1,20 +1,36 @@
-.App {
-  text-align: center;
+html, head, body {
+  background-color: #231b12;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dark {
+  background-color: #231b12;
+  color: #d3d3d3;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-tabs {
+  background-color: #231b12;
+  color: #d3d3d3;
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-bottom-color: #63390c;
+}
+
+.nav-tabs .nav-link:hover {
+  border-top-color: #958b5e;
+  border-right-color: #958b5e;
+  border-left-color: #958b5e;
+  border-bottom-color: #7e4a13;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #704d26;
+  color: #d3d3d3;
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-top-color: #958b5e;
+  border-right-color: #958b5e;
+  border-left-color: #958b5e;
+  border-bottom-color: #704d26;
 }
 
 .spec-title {
