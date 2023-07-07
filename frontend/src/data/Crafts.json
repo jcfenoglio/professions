@@ -3,7 +3,31 @@
         "id" : "lw",
         "items" : [
             {
-                "Adaptive Dracothyst Armguards": [
+                "name": "Adaptive Dracothyst Armguards",
+                "specs": [
+                    ""
+                ]
+            },
+            {
+                "name": "Flaring Cowl",
+                "specs": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "id" : "jc",
+        "items" : [
+            {
+                "name": "Elemental Lariat",
+                "specs": [
+                    ""
+                ]
+            },
+            {
+                "name": "Ring-Bound Hourglass",
+                "specs": [
                     ""
                 ]
             }

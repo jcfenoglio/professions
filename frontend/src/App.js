@@ -33,14 +33,22 @@ function App(props) {
     );
   };
 
-  // const renderCrafts = () => {
-  //   let currentCrafts = Crafts.filter((craftList) => {
-  //     return currentProf === craftList.id;
-  //   });
-  //   return (
-  //     <div className=""></div>
-  //   );
-  // }
+  const renderCrafts = () => {
+    const currentItems = Crafts.filter((craftList) => {
+      return currentProf === craftList.id;
+    })[0].items;
+    
+    // const currentItems = currentCrafts[0].items;
+
+    return currentItems.map((item) => (
+      <li 
+        key={item.name}
+        className="list-group-item flex justify-content-between align-items-center"
+      >
+        { item.name }
+      </li>
+    ));
+  }
 
   // const renderItems = () => {
   //   const newSpecs = this.state.knowList;
@@ -71,7 +79,7 @@ function App(props) {
           <div className="card p-3 dark">
             {renderTabList()}
             <ul className="list-group list-group-flush border-top-0 dark">
-              {/* {renderCrafts()} */}
+              {renderCrafts()}
             </ul>
           </div>
         </div>

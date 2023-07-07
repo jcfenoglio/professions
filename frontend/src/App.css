@@ -12,25 +12,29 @@ html, head, body {
   color: #d3d3d3;
   border-bottom-right-radius: 0%;
   border-bottom-left-radius: 0%;
-  border-bottom-color: #63390c;
+  border-bottom-color: #42362d;
 }
 
 .nav-tabs .nav-link:hover {
   border-top-color: #958b5e;
   border-right-color: #958b5e;
   border-left-color: #958b5e;
-  border-bottom-color: #7e4a13;
+  border-bottom-color: #534539;
 }
 
 .nav-tabs .nav-link.active {
-  background-color: #704d26;
+  background-color: #42362d;
   color: #d3d3d3;
   border-bottom-right-radius: 0%;
   border-bottom-left-radius: 0%;
   border-top-color: #958b5e;
   border-right-color: #958b5e;
   border-left-color: #958b5e;
-  border-bottom-color: #704d26;
+  border-bottom-color: #42362d;
+}
+
+.list-group-item {
+  background-color: #42362d;
 }
 
 .spec-title {
